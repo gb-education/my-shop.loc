@@ -154,8 +154,7 @@ function pageBuilder($url) {
 				//echo $array_result[0]['id'];
 				//$num = int($_GET['num']);
 				//$_GET['num'] == ''?$num = 0:$num = (int)$_GET['num'];
-				$num = $num + 3;
-				echo $sql_goods = "SELECT * FROM `goods` WHERE `cat_id` = ".$array_result[0]['id']." LIMIT ".$num.";";
+				$sql_goods = "SELECT * FROM `goods` WHERE `cat_id` = ".$array_result[0]['id']." LIMIT 3;";
 
 				//собираем страницу категории
 				

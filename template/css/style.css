@@ -167,6 +167,7 @@ h1, h2 {
 	/* margin: 15px 30px 15px 0;*/
 	font-size: 14px;
 	line-height: 20px;
+	margin: 10px 0;
 	//padding:10px;
 }
 .cat_prod:nth-of-type(3n) {

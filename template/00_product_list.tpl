@@ -1,12 +1,13 @@
 
 			<div class="container">
 				<h2>{{block_header}}</h2>
-				<div class="row">
+				<div class="row" id="add_goods" >
 					{{prod_list}}
 
-					<div class="col-12" style="text-align:center;">
-						<a href="" id="still_goods">Показать еще</a>
-					</div>
+					
+				</div>
+				<div class="col-12" style="text-align:center;">
+					<button id="load">Загрузить еще</button> 
 				</div>
 			</div>
 

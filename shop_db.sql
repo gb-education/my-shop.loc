@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 18 2018 г., 14:52
+-- Время создания: Апр 19 2018 г., 01:11
 -- Версия сервера: 5.6.38
 -- Версия PHP: 7.1.12
 
@@ -105,15 +105,15 @@ CREATE TABLE `goods` (
 INSERT INTO `goods` (`id`, `name`, `title`, `description`, `img`, `text`, `price`, `price_sale`, `cat_id`, `brand_id`, `view_count`, `pubdate`, `visible`, `alias`) VALUES
 (1, 'Квадрокоптер DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
 (2, 'Квадрокоптер DJI Phantom 4 Pro', 'megaupdate1', 'Описание 2', '/template/images/DJI-Mavic-drone-small.jpg', 'Текс 2Текс 2Текс 2Текс 2Текс 2\r\n', '2560.00', '1700.00', 5, '', 0, '2018-03-24 00:00:00', 0, 'drone2'),
-(3, 'Квадрокоптер 1 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(4, 'Квадрокоптер 3 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(5, 'Квадрокоптер 4 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(6, 'Квадрокоптер 3 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(7, 'Квадрокоптер 5 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(8, 'Квадрокоптер 6 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(9, 'Квадрокоптер 8 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(10, 'Квадрокоптер 7 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1'),
-(11, 'Квадрокоптер NEW DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone1');
+(3, 'Квадрокоптер 1 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone3'),
+(4, 'Квадрокоптер 3 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone4'),
+(5, 'Квадрокоптер 4 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone5'),
+(6, 'Квадрокоптер 3 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone6'),
+(7, 'Квадрокоптер 5 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone7'),
+(8, 'Квадрокоптер 6 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone8'),
+(9, 'Квадрокоптер 8 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone9'),
+(10, 'Квадрокоптер 7 DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone10'),
+(11, 'Квадрокоптер NEW DJI Spark Fly More Combo', 'megaupdate2', 'Описание 1', '/template/images/DJI-Mavic-drone-small.jpg', 'Текст 1', '1000.00', '950.00', 3, '', 0, '0000-00-00 00:00:00', 0, 'drone11');
 
 -- --------------------------------------------------------
 
